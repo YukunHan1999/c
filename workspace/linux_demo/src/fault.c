@@ -8,5 +8,6 @@ int main() {
     *ptr = 1024;
 
     printf("这段文字永远不会被打印\n");
+    
     return 0;
 }

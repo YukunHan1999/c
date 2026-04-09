@@ -56,7 +56,7 @@ dkms.conf
 
 workspace/*/bin/*
 *.txt
-
+workspace/vim_dev
 
 
 

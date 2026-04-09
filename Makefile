@@ -2,7 +2,7 @@ build:
 	@docker build -t c_dev -f Dockerfile .
 
 docker:
-	@docker run --rm -it -v ${PWD}/workspace:/mnt -w /mnt --name bash c_dev
+	@docker run --rm -it -v ${PWD}/workspace:/home/ubuntu/workspace --name c_dev c_dev
 
 run:
 	@docker start c_dev
